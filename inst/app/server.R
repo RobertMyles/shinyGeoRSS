@@ -1,7 +1,5 @@
 source("global.R")
 
-#"https://inciweb.nwcg.gov/feeds/rss/incidents/"
-
 serv <- function(input, output) {
   
   geo <- reactive({
