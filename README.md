@@ -24,5 +24,5 @@ To see the app, just install the package:
 devtools::install_github("RobertMyles/shinyGeoRSS")
 ```
 
-…and then use the function `runApp()`. It looks better in a browser such
+…and then use `library(shinyGeoRSS)` and the function `runApp()`. It looks better in a browser such
 as Chrome or Firefox.
