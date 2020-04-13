@@ -3,9 +3,7 @@ source("global.R")
 serv <- function(input, output) {
   geo <- reactive({
     validate(
-      need(nchar(input$feed) > 1, "Please enter an url for the geoRSS feed. 
-           If you don't have one, \n https://inciweb.nwcg.gov/feeds/rss/incidents/ \n
-           is a good one. It shows wildfires.")
+      need(nchar(input$feed) > 1, "Please enter an url for the geoRSS feed. You'll need one that contains a latitude & longitude element, preferably. Otherwise just modify the source code to get your example working. If you don't have a feed, \n https://inciweb.nwcg.gov/feeds/rss/incidents/ is a good one. It shows wildfires. Copy and paste it into the input on the left :-)")
     )
     url <- trimws(input$feed)
     g <- tidygeo(url) %>% sf::st_as_sf()
