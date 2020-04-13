@@ -4,13 +4,12 @@
 # shinyGeoRSS
 
 This is a [Shiny](https://shiny.rstudio.com) App for mapping geoRSS
-feeds, using the [tidyRSS](https://github.com/RobertMyles/tidyRSS)
-package, along with [leaflet](https://rstudio.github.io/leaflet/),
+feeds, using the [tidyRSS](https://github.com/RobertMyles/tidyRSS) and tidygeoRSS packages, along with [leaflet](https://rstudio.github.io/leaflet/),
 [shinyMaterial](https://ericrayanderson.github.io/shinymaterial/),
 [DT](https://shiny.rstudio.com/articles/datatables.html) and Shiny &
 htmltools.
 
-I made this to show the potential of parsing geoRSS feeds using tidyRSS,
+I made this to show the potential of parsing geoRSS feeds using tidyRSS & tidygeoRSS,
 since these feeds naturally lend themselves to mapping, and with their
 streaming-like quality, could make excellent data inputs for a variety
 of apps.
