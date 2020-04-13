@@ -1,5 +1,6 @@
 library(shiny)
 library(tidyRSS)
+library(tidygeoRSS)
 library(leaflet)
 library(shinymaterial)
 library(htmltools)

@@ -20,5 +20,8 @@ Imports: shinymaterial (>= 0.5.2),
     shiny (>= 1.0.5),
     DT (>= 0.4),
     leaflet (>= 2.0.0),
-    tidyRSS(>= 1.2.4),
+    tidyRSS,
+    tidygeoRSS,
     htmltools (>= 0.3.6)
+Remotes: robertmyles/tidyRSS,
+    robertmyles/tidygeoRSS
